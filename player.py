@@ -30,7 +30,6 @@ AAA=0
 
 class ActorCritic(nn.Module):
     def __init__(self, *args, **kwargs) -> None:
-        """Выходы: (влево, вправо, влево+вверх, вправо+вверх) нажать или отпустить и бездействие = 11 выходов"""
         super().__init__(*args, **kwargs)
         self.temp = 5
         self.dist=nn.Sequential(
