@@ -1,0 +1,17 @@
+{
+    "NUM_INPUT": 32, 
+    "NUM_OUTPUT": 3,
+    "SPEED": 200,
+    "G": 800,
+    "MAX_SPEED": 250,
+    "TIME_DELAY": 15,
+    "REWARD_VICT": 10,
+    "PENALTY_LOSE": -10,
+    "LVL_TIME_LIMIT": 30,
+    "R": 30,
+    "PENALTY_COEF": 1,
+    "FPS":  64,
+    "LEN_TRAIN_DATA": 5,
+    "COUNTER": 0,
+    "LEN_EPOCH": 125
+}
